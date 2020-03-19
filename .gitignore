@@ -1,0 +1,3 @@
+# dont track contents of Visual Code folder as this contains user profile preferences
+
+.vscode/
