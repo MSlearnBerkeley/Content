@@ -24,6 +24,10 @@ ARG USER_GID=$USER_UID
 # requirements rarely (if ever) change.
 # COPY requirements.txt /tmp/pip-tmp/
 
+# Copy environment.yml (if found) to a temp locaition so we update the environment. Also
+# copy "noop.txt" so the COPY instruction does not fail if no environment.yml exists.
+COPY environment.yml* .devcontainer/noop.txt /tmp/conda-tmp/
+
 # Configure apt and install packages
 RUN apt-get update \
     && apt-get -y install --no-install-recommends apt-utils dialog 2>&1 \

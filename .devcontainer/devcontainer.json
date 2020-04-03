@@ -1,22 +1,16 @@
 {
-	"name": "Python 3",
+	"name": "Python 3 - Anaconda",
 	"context": "..",
 	"dockerFile": "Dockerfile",
 
-	// Set *default* container specific settings.json values on container create.
-	"settings": { 
-		"terminal.integrated.shell.linux": "/bin/bash",
-		//Python Versions "python.pythonPath": "/usr/local/bin/python",
-		//"python.linting.enabled": true,
-		//"python.linting.pylintEnabled": true,
-		//"python.linting.pylintPath": "/usr/local/bin/pylint"
-		
-		//Using Conda Python
-		"python.pythonPath": "/opt/conda/bin/python",
-		"python.linting.enabled": true,
-		"python.linting.pylintEnabled": true,
-		"python.linting.pylintPath": "/opt/conda/bin/pylint",
-	},
+		// Set *default* container specific settings.json values on container create.
+		"settings": { 
+			"terminal.integrated.shell.linux": "/bin/bash",
+			"python.pythonPath": "/opt/conda/bin/python",
+			"python.linting.enabled": true,
+			"python.linting.pylintEnabled": true,
+			"python.linting.pylintPath": "/opt/conda/bin/pylint"
+		},
 	 // Add the IDs of extensions you want installed when the container is created.
 	 "extensions":[
 		"ms-python.python"
