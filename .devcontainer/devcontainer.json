@@ -2,12 +2,6 @@
 	"name": "Python 3 - Anaconda",
 	"context": "..",
 	"dockerFile": "Dockerfile",
-
-	 // Add the IDs of extensions you want installed when the container is created.
-	"extensions":[
-		"ms-python.python"
-		"vsls-contrib.codetour"
-	 ],	
 	
 	 // Set *default* container specific settings.json values on container create.
 		"settings": { 
@@ -17,7 +11,11 @@
 			"python.linting.pylintEnabled": true,
 			"python.linting.pylintPath": "/opt/conda/bin/pylint"
 		},
-	
+     // Add the IDs of extensions you want installed when the container is created.
+		 "extensions":[
+			"ms-python.python",
+			"vsls-contrib.codetour"
+		 ]
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
 
@@ -27,3 +25,4 @@
 	// Uncomment to connect as a non-root user. See https://aka.ms/vscode-remote/containers/non-root.
 	// "remoteUser": "vscode"
 }
+
