@@ -4,7 +4,9 @@ This repository contains some labs to help you get started. These labs are desig
 
 The labs are provided as notebooks that contain explanations of key DataScience principals and code.
 
-## Before You Start
+[![Open in Visual Studio Online](https://img.shields.io/endpoint?style=social&url=https%3A%2F%2Faka.ms%2Fvso-badge)](https://online.visualstudio.com/environments/new?name=MSLearn-DataScience&repo=MSlearnBerkeley/Content)
+
+## Manually creating a VS Online Container
 
 To complete the labs, you'll need the following:
 
