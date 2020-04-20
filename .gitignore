@@ -3,3 +3,7 @@
 .vscode/
 .DS_Store
 */.DS_Store
+
+# ignoring jupyter notebook metadata
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
