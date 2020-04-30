@@ -7,3 +7,6 @@
 # ignoring jupyter notebook metadata
 .ipynb_checkpoints
 */.ipynb_checkpoints/*
+
+# removing answer keys from view
+answerkeys/
