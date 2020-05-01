@@ -43,11 +43,11 @@ RUN apt-get update \
     && pip --disable-pip-version-check --no-cache-dir install numpy \
     && pip --disable-pip-version-check --no-cache-dir install pandas \
     && pip --disable-pip-version-check --no-cache-dir install scipy \
-    && pip --disable-pip-version-check --no-cache-dir install folium==0.2.1 \
+    && pip --disable-pip-version-check --no-cache-dir install folium>=0.9.1 \
     && pip --disable-pip-version-check --no-cache-dir install matplotlib \
     && pip --disable-pip-version-check --no-cache-dir install ipywidgets>=7.0.0 \
     && pip --disable-pip-version-check --no-cache-dir install bqplot \
-    && pip --disable-pip-version-check --no-cache-dir install nbinteract==0.0.12 \
+    && pip --disable-pip-version-check --no-cache-dir install nbinteract>=0.0.12 \
     && pip --disable-pip-version-check --no-cache-dir install otter-grader \
     && pip --disable-pip-version-check --no-cache-dir install okpy  \
     #
